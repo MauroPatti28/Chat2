@@ -69,7 +69,7 @@ function getSmartLocalResponse(msg) {
 }
 
 // Ruta principal del chat
-app.post('https://chat2-production-48eb.up.railway.app//chat', async (req, res) => {
+app.post('/chat', async (req, res) => {
   try {
     const { message } = req.body;
     

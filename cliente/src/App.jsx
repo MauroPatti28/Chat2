@@ -42,7 +42,7 @@ export default function UltraProfessionalChatBot() {
 
     try {
       // Hacer request al servidor
-      const response = await fetch('https://chat2-production-48eb.up.railway.app//chat', {
+      const response = await fetch('https://chat2-production-48eb.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
